@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+body{
+    font-family: poppins;
+    line-height: 1.5;
+}
+
+ul{
+    list-style: none;
+}
+
+.btn{
+    background: none;
+    border: 2px solid white;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.banner{
+    background: linear-gradient(to right, #173D7E, #2863AF);
+    width: 100%;
+    height: 100vh;
+    padding: 0 50px;
+    position: absolute;
+    overflow: hidden;
+}
+
+header .brand-logo{
+    max-width: 6%;
+    padding-top: 10px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+}
+
+header ul li{
+    padding: 0 20px;
+}
+
+header a{
+    font-size: 14px;
+}
+
+.product{
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+.product h1{
+    position: relative;
+    font-size: 80px;
+    line-height: 5rem;
+    color: white;
+    padding-bottom: 10px;
+    z-index: 1;
+}
+
+.product p{
+    width: 37%;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.main-pepsi{
+   position: relative;
+   transform: translateY(-350px);
+   margin-left: 370px;
+   width: 45%;
+   height: auto;
+}
+
+.bg-white-down{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 180px;
+    transform: translateY(477px);
+    padding: 20px 50px;
+}
+
+.bg-white-down .content{
+    width: 38%;
+}
+
+.bg-white-down .content-img{
+    width: 150px;
+    margin-left: 38%;
+    margin-top: -110px;
+}
+
+.pepsi-diet{
+    position: relative;
+    background-color: black;
+    width: 310px;
+    height: 230px;
+    transform: translateY(430px);
+    margin-left: 664px;
+    color: white;
+}
+
+.pepsi-diet .content{
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    padding-top: 50px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.pepsi-diet .content p{
+    font-weight: 200;
+    padding-top: 20px;
+}
+
+
+.pepsi-history{
+    position: relative;
+    background-color: #3787DC;
+    width: 289px;
+    height: 230px;
+    transform: translateY(200px);
+    margin-left: 974px;
+    color: white;
+}
+
+.pepsi-history .content{
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    padding-top: 50px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.pepsi-history .content p{
+    font-weight: 200;
+    padding-top: 20px;
+}
+
+.box-icon{
+    position: relative;
+    transform: translateY(-80px);
+    margin-left: 920px;
+}
+
+.box-icon i{
+    color: white;
+    background-color: #3688DD;
+    padding: 50px;
+    border-radius: 100%;
+    font-size: 50px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.2);
+
+}
+
+.side-icons-right{
+    margin-top: -730px;
+    display: flex;
+    flex-direction: column;
+}
+.side-icons-right i{
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
